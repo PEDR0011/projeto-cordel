@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    
+
+
+body {
+    margin: 0%;
+}
+
+header > h1 {
+   background-color: black;
+   color: white;
+   font-family: "passion one";
+   text-align: center;
+   padding: 60px; 
+   margin: 0%;
+   
+   font-size: 10vw;
+   
+}
+header > nav > p {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+}
+header > nav > p > a {
+    color: white;
+    text-decoration: none;
+    
+}
+header > nav > p > a:hover {
+    text-decoration: underline;
+}
+main > article  > p {
+
+    color: black;
+    font-family: "sriracha";
+    font-weight: normal;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-top: 5px;
+    font-size: 3.3vw;
+ 
+
+}
+.pimg1 {
+    background-color: rgba(0, 0, 0, 0.418);
+    font-family: "sriracha";
+    color: white;
+    width: 40%;
+    padding-left: 4px;
+    margin-left: 30px;
+    padding-top: 4px;
+    font-size: 3.3vw;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    
+    
+    
+    
+    
+
+    
+}
+.pimg2 {
+
+    background-color: rgba(0, 0, 0, 0.418);
+    font-family: "sriracha";
+    color: white;
+    width: 40%;
+    padding-left: 4px;
+    margin-left: 30px;
+    padding-top: 4px;
+    font-size: 3.3vw;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+
+}
+.img1 {
+    background-image: url(imagens/background001.jpg);
+     max-height: 700px;
+    background-position: right, center;
+    background-attachment: fixed;
+    background-size:cover ;
+    padding-top: 10px;
+    padding-bottom: 128px;
+    
+    
+    
+}
+.img2 {
+    background-image: url(imagens/background002.jpg);
+     max-height: 700px;
+    background-position: right, center;
+    background-attachment: fixed;
+    background-size:cover ;
+    padding-top: 10px;
+    padding-bottom: 128px;
+}
+footer {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    font-weight: lighter;
+    font-size: 17px;
+    color:white;
+    text-align: center;
+    
+
+    
+}
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+footer > a:hover {
+    text-decoration: underline;
+}
